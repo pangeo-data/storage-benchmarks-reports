@@ -1,0 +1,193 @@
+{
+    "commit_hash": "45c0ba242945972cac6e929ac66968a04f322210",
+    "date": 1529112143000,
+    "ended_at": {
+        "IO_dask.NetCDF_GCP_LLC4320.time_load_array_compute_theta_mean": 1529876990000,
+        "IO_dask.Report_dataset_sizes.track_NetCDF_GCP_LLC4320_dataset_size": 1529877361000,
+        "IO_dask.Report_dataset_sizes.track_Zarr_GCP_LLC4320_dataset_size": 1529877379000,
+        "IO_dask.Report_dataset_sizes.track_Zarr_GCP_synthetic_write_dataset_size": 1529877381000,
+        "IO_dask.Zarr_GCP_LLC4320.time_load_array_compute_theta_mean": 1529887942000,
+        "IO_dask.Zarr_GCP_synthetic_write.time_synthetic_write": 1529891252000
+    },
+    "env_name": "conda-py3.6-dask-distributed-gcsfs-h5netcdf-h5py-lz4-netcdf4-numpy-pip+dask_kubernetes-pip+h5pyd-pyyaml-rasterio-xarray-zarr",
+    "params": {
+        "arch": "x86_64",
+        "cpu": "Intel(R) Xeon(R) CPU @ 2.30GHz",
+        "dask": "",
+        "distributed": "",
+        "gcsfs": "",
+        "h5netcdf": "",
+        "h5py": "",
+        "lz4": "",
+        "machine": "kubernetes-gcp",
+        "netcdf4": "",
+        "numpy": "",
+        "os": "Linux 4.4.111+",
+        "pip+dask_kubernetes": "",
+        "pip+h5pyd": "",
+        "python": "3.6",
+        "pyyaml": "",
+        "ram": "26760068",
+        "rasterio": "",
+        "xarray": "",
+        "zarr": ""
+    },
+    "profiles": {},
+    "python": "3.6",
+    "requirements": {
+        "dask": "",
+        "distributed": "",
+        "gcsfs": "",
+        "h5netcdf": "",
+        "h5py": "",
+        "lz4": "",
+        "netcdf4": "",
+        "numpy": "",
+        "pip+dask_kubernetes": "",
+        "pip+h5pyd": "",
+        "pyyaml": "",
+        "rasterio": "",
+        "xarray": "",
+        "zarr": ""
+    },
+    "results": {
+        "IO_dask.NetCDF_GCP_LLC4320.time_load_array_compute_theta_mean": {
+            "params": [
+                [
+                    "'FUSE'"
+                ],
+                [
+                    "10",
+                    "90"
+                ],
+                [
+                    "40",
+                    "80",
+                    "120",
+                    "160"
+                ]
+            ],
+            "result": [
+                null,
+                null,
+                null,
+                204.02951917266668,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "IO_dask.Report_dataset_sizes.track_NetCDF_GCP_LLC4320_dataset_size": {
+            "params": [
+                [
+                    "'ALL'"
+                ],
+                [
+                    "1"
+                ],
+                [
+                    "1"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "IO_dask.Report_dataset_sizes.track_Zarr_GCP_LLC4320_dataset_size": {
+            "params": [
+                [
+                    "'ALL'"
+                ],
+                [
+                    "1"
+                ],
+                [
+                    "1"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "IO_dask.Report_dataset_sizes.track_Zarr_GCP_synthetic_write_dataset_size": {
+            "params": [
+                [
+                    "'ALL'"
+                ],
+                [
+                    "1"
+                ],
+                [
+                    "1"
+                ]
+            ],
+            "result": [
+                null
+            ]
+        },
+        "IO_dask.Zarr_GCP_LLC4320.time_load_array_compute_theta_mean": {
+            "params": [
+                [
+                    "'GCS'"
+                ],
+                [
+                    "1"
+                ],
+                [
+                    "40",
+                    "80",
+                    "120",
+                    "160"
+                ]
+            ],
+            "result": [
+                null,
+                246.49474818533054,
+                179.4614138379984,
+                151.23111210233765
+            ]
+        },
+        "IO_dask.Zarr_GCP_synthetic_write.time_synthetic_write": {
+            "params": [
+                [
+                    "'GCS'"
+                ],
+                [
+                    "1",
+                    "5",
+                    "10"
+                ],
+                [
+                    "40",
+                    "80",
+                    "120",
+                    "160"
+                ]
+            ],
+            "result": [
+                null,
+                null,
+                null,
+                null,
+                23.701138988665964,
+                16.909493786666037,
+                13.900723593998313,
+                13.219631086666292,
+                33.51513964300102,
+                null,
+                20.202763004999724,
+                18.579435487331164
+            ]
+        }
+    },
+    "started_at": {
+        "IO_dask.NetCDF_GCP_LLC4320.time_load_array_compute_theta_mean": 1529861847000,
+        "IO_dask.Report_dataset_sizes.track_NetCDF_GCP_LLC4320_dataset_size": 1529876990000,
+        "IO_dask.Report_dataset_sizes.track_Zarr_GCP_LLC4320_dataset_size": 1529877361000,
+        "IO_dask.Report_dataset_sizes.track_Zarr_GCP_synthetic_write_dataset_size": 1529877379000,
+        "IO_dask.Zarr_GCP_LLC4320.time_load_array_compute_theta_mean": 1529877381000,
+        "IO_dask.Zarr_GCP_synthetic_write.time_synthetic_write": 1529887942000
+    },
+    "version": 1
+}
